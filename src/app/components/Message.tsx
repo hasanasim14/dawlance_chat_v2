@@ -24,7 +24,7 @@ type ParsedContent = {
   linkText?: string;
 };
 
-// YouTube component
+// YouTube rendering component
 const StableYouTubeEmbed = memo(
   function StableYouTubeEmbed({
     videoId,
