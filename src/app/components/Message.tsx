@@ -263,8 +263,8 @@ const parseMessageContent = (content: string): ParsedContent[] => {
         // If it's in markdown format [text](url)
         parts.push({
           type: "image",
-          content: markdownLinkMatch[2], // The URL part
-          alt: markdownLinkMatch[1], // The alt text
+          content: markdownLinkMatch[2],
+          alt: markdownLinkMatch[1],
         });
       } else {
         // If it's just a plain URL
